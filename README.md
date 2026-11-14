@@ -15,7 +15,7 @@ dealing with data storage on disk (Page and Page buffers), caching (LRU), lockin
 
 ## Development Progress
 
-- [X] Basic implementation of Tree-Based [`Unique Index Management`](https://github.com/sepgh/testudo/blob/main/src/main/java/com/github/sepgh/testudo/index/UniqueTreeIndexManager.java) using B+Tree 
+- [X] Basic implementation of Tree-Based `Unique Index Management` using B+Tree 
 - [X] Cluster implementation of B+Tree
 - [ ] All "collections" should have a default cluster B+Tree implementation despite their Primary key. Perhaps the Primary Key should point to the cluster id of a collection object (traditionally known as a row of a table).
   - [X] Implement UnsignedLong serializer, which would be cluster key type
