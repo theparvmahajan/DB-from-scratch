@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.sepgh</groupId>
-    <artifactId>DB-from-scratch</artifactId>
+    <artifactId>testudo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
